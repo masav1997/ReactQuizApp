@@ -109,7 +109,7 @@ class QuestionBox extends React.Component {
       .update({
         answer3: this.refs.textArea.value
       });
-    this.setState({ bool: 1 });
+    this.setState({ bool: 2 });
   };
 
   render() {
@@ -290,14 +290,14 @@ class QuestionBox extends React.Component {
             )
           ) : null}
           {this.state.flag === 2 ? (
-            this.state.bool === 1 ? (
+            this.state.bool === 2 ? (
               <button className="btn btn-primary" onClickCapture={this.saveId}>
                 <NavLink to="/finish" style={{ color: "white" }}>
                   Завершить опрос
                 </NavLink>
               </button>
             ) : (
-              <button className="btn btn-outline-primary">
+              <button className="btn btn-outline-primary" disabled>
                 Напишите ответ
               </button>
             )
