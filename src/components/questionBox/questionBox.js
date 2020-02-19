@@ -1,9 +1,9 @@
 import React from "react";
-import "./firstQuestionBox.css";
+import "./questionBox.css";
 import { db } from "../../services/firebase";
 import { NavLink } from "react-router-dom";
 
-class FirstQuestionBox extends React.Component {
+class QuestionBox extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -308,4 +308,4 @@ class FirstQuestionBox extends React.Component {
   }
 }
 
-export default FirstQuestionBox;
+export default QuestionBox;

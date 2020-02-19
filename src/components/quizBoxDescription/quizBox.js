@@ -48,7 +48,7 @@ class QuizBox extends React.Component {
               );
             })}
           <button className="btn btn-primary">
-            <NavLink to="/first" style={{ color: "white" }}>
+            <NavLink to="/quiz" style={{ color: "white" }}>
               Пройти опрос
             </NavLink>
           </button>
