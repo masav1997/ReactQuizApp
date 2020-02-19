@@ -36,7 +36,7 @@ class QuizBox extends React.Component {
           {this.state.description &&
             this.state.description.map(description => {
               return (
-                <h4 className="card-title">{String(description.title)}</h4>
+                <h5 className="card-title">{String(description.title)}</h5>
               );
             })}
           {this.state.description &&
@@ -47,8 +47,10 @@ class QuizBox extends React.Component {
                 </p>
               );
             })}
-          <button className="btn btn-outline-success">
-            <NavLink to="/first">Пройти опрос</NavLink>
+          <button className="btn btn-primary">
+            <NavLink to="/first" style={{ color: "white" }}>
+              Пройти опрос
+            </NavLink>
           </button>
           <p className="card-text text-secondary">
             <NavLink to="/code" on>

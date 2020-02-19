@@ -69,11 +69,11 @@ class CodeQuizBox extends React.Component {
     return (
       <div className="card text-center shadow">
         <div className="card-body text-dark">
-          <h4 className="card-title">
+          <h5 className="card-title">
             Введите код доступа, полученный у пациента
-          </h4>
+          </h5>
           <div className="card-text text-secondary">
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="number"
                 class="form-control"

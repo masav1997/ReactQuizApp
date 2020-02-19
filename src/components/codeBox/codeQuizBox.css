@@ -1,5 +1,6 @@
 body {
-    background: rgba(109, 106, 106, 0.253) 
+    background: rgba(109, 106, 106, 0.253);
+    margin-top: 60px;
   }
    
   .card-body {

@@ -53,7 +53,7 @@ class FinishQuizBox extends React.Component {
         <div className="card-body text-dark">
           {this.state.finish &&
             this.state.finish.map(finish => {
-              return <h4 className="card-title">{String(finish.title)}</h4>;
+              return <h5 className="card-title">{String(finish.title)}</h5>;
             })}
           {this.state.finish &&
             this.state.finish.map(finish => {
@@ -63,7 +63,7 @@ class FinishQuizBox extends React.Component {
                 </p>
               );
             })}
-          <h4 className="card-title text-center">{this.state.id}</h4>
+          <h5 className="card-title text-center">{this.state.id}</h5>
           <p className="card-text text-secondary">
             <NavLink to="/">Вернуться на главную страницу</NavLink>
           </p>

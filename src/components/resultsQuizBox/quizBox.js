@@ -9,7 +9,7 @@ class ResultsQuizBox extends React.Component {
     this.state = {
       answer1: "",
       answer2: "",
-      answer3: "",
+      answer3: ""
     };
   }
 
@@ -38,7 +38,7 @@ class ResultsQuizBox extends React.Component {
 
   render() {
     return (
-      <div className="card text-center shadow ">
+      <div className="card text-center shadow">
         <div className="card-body text-dark row">
           <div className="col-6">
             <div className="card-text text-left">
